@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background-color: rgb(166, 222, 222);
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ecab39;
+  padding: 10px 0;
+  transition: background-color 0.3s;
+  z-index: 999;
+}
+
+#navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+#navbar ul li {
+  margin: 0 20px;
+}
+
+#navbar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+#navbar ul li a:hover {
+  background-color: #c71a1a;
+  color: yellow;
+}
+
+.scrolled {
+  background-color: #b931c3 !important;
+}
+
+.content {
+  padding-top: 80px;
+  padding: 20px;
+  height: 2000px; /* Just to enable scrolling */
+}
+.arrange{
+    text-align: center;
+}
